@@ -118,7 +118,7 @@ class QuestionController extends Controller
 
         return redirect()->route('questions.show',['question_id' => $question->id])->with('message', 'Saved');
     }
-    /**
+     /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id

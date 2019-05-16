@@ -83,8 +83,7 @@
                 <div class="title m-b-md">
                     Welcome Here
                 </div>
-                <h1>This is My Final Project.</h1>
-                <h1>This is My Home Page.</h1>
+                <h1>This is My Final Project.</h1><h1>This is My Home Page.</h1>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>

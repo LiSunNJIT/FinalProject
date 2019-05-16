@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-header">Questions
 
-                        <a class="btn btn-primary float-right" href="#">
+                        <a class="btn btn-primary float-right" href="{{route('questions.create')}}">
                             Create a Question.
                         </a>
 
@@ -30,7 +30,7 @@
                                             <div class="card-footer">
                                                 <p class="card-text">
 
-                                                    <a class="btn btn-primary float-right" href="#">
+                                                    <a class="btn btn-primary float-right" href="{{ route('questions.show', ['id' => $question->id]) }}">
                                                         View
                                                     </a>
                                                 </p>
