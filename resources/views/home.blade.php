@@ -5,10 +5,11 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">Questions
+                    <div class="card-header"><div class="alert alert-secondary" role="alert">
+                            Introduction
 
                         <a class="btn btn-primary float-right" href="{{route('questions.create')}}">
-                            Create a Question.
+                            Create a new story.
                         </a>
 
                         <div class="card-body">
@@ -39,7 +40,7 @@
                                     </div>
                                 @empty
 
-                                    There are no questions to view, you can create a question.
+                                    Let's talk about yourself.
                                     </a>
                                 @endforelse
 

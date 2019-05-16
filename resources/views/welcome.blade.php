@@ -83,16 +83,19 @@
                 <div class="title m-b-md">
                     Welcome Here
                 </div>
-                <h1>This is My Final Project.</h1><h1>This is My Home Page.</h1>
+                <h1>This is My Final Project, This is My Home Page.</h1>
+
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
+                    {{--<a href="https://laravel.com/docs">Docs</a>--}}
+                    {{--<a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a>--}}
+
+                    <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
                 </div>
             </div>
         </div>

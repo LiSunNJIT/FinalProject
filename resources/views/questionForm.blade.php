@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">Create Question</div>
+                    <div class="card-header">Another Interesting Story</div>
                     <div class="card-body">
 
                         @if($edit === FALSE)
@@ -19,7 +19,7 @@
                             {!! Form::text('body', $question->body, ['class' => 'form-control','required' => 'required']) !!}
                         </div>
 
-                        <button class="btn btn-success float-right" value="submit" type="submit" id="submit">Save
+                        <button class="btn btn-success float-right" value="submit" type="submit" id="submit">Submit it!
                         </button>
                         {!! Form::close() !!}
                     </div>
